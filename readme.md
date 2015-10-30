@@ -5,5 +5,5 @@ home.html uses has 3 ng-controller: ngHeaderControler, ngFooterControler and ngH
 
 ---
 ### License
-Copyright (c) 2015 Gabriel Albano</a>.
+Copyright (c) 2015 Gabriel Albano.
 [Licensed under the MIT license.](https://opensource.org/licenses/MIT)
