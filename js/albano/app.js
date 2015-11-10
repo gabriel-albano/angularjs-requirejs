@@ -1,11 +1,11 @@
+'use strict';
 define([
-    'Angular',
-    'AngularDirective'
-], function(){
-   'use strict';
-    var appName = 'mainApp';
-    var app = angular.module(appName, function ($compileProvider) {
-        $compileProvider.directive('compile',albano.ui.AngularDirective.Compile);
-    });   
-    return app;
-}.bind(document));
+  'Angular',
+  'AngularRoute',
+  'AngularDirective'
+], function(Angular, AngularRoute) {
+  // Declare app level module which depends on views, and components
+  return angular.module('mainApp', ['ngRoute'], function($compileProvider) {
+    $compileProvider.directive('compile', albano.ui.AngularDirective.Compile);
+  });
+});

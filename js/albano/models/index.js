@@ -2,14 +2,14 @@ define([
     'App',
     'JQuery',
     'Angular',
+    'AngularRoute',
     'SocketIO'
 ], function (app) {
 
-    this.name = 'ngIndexCtrler';
-    app.controller(this.name, function ($scope, $http) {
+    app.controller('ngIndexCtrler', function ($scope, $http) {
 
         function main() {
-            console.debug("Main function on " + this.name);
+            console.debug('Main function on ngIndexCtrler');
         }
         main();
 

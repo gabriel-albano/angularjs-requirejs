@@ -5,14 +5,14 @@ define([
 ], function (app) {
 
     this.name = 'ngHomeControler';
-    app.controller(this.name, function ($scope, $http) {
+    app.controller('ngHomeControler', function ($scope, $http) {
 
         function main() {
-            console.debug("Main function on " + this.name);
+            console.debug('Main function on ngHomeControler');
         }
         main();
 
     });
 
-    angular.bootstrap(document.getElementsByTagName("html")[0], ['mainApp']);
+    angular.bootstrap(document.getElementsByTagName('html')[0], ['mainApp']);
 });

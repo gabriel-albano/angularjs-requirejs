@@ -5,11 +5,10 @@ define([
     'SocketIO'
 ], function (app) {
 
-    this.name = 'ngFooterControler';
-    app.controller(this.name, function ($scope, $http) {
+    app.controller('ngFooterControler', function ($scope, $http) {
 
         function main() {
-            console.debug("Main function on " + this.name);
+            console.debug('Main function on ngFooterControler');
         }
         main();
 
